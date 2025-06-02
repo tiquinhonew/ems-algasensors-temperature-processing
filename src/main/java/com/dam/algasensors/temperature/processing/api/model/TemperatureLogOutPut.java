@@ -13,5 +13,5 @@ public class TemperatureLogOutPut {
     private UUID id;
     private TSID sensorId;
     private OffsetDateTime registeredAt;
-    private Double valeu;
+    private Double value;
 }

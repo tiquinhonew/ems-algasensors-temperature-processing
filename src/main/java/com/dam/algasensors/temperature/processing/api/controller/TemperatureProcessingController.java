@@ -37,7 +37,7 @@ public class TemperatureProcessingController {
         TemperatureLogOutPut logOutPut = TemperatureLogOutPut.builder()
                 .id(IdGenerator.generateTimeBasedUUID())
                 .sensorId(sensorId)
-                .valeu(temperature)
+                .value(temperature)
                 .registeredAt(OffsetDateTime.now())
                 .build();
 
